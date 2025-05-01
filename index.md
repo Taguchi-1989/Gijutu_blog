@@ -1,3 +1,13 @@
+---
+# index.md
+layout: default # default.html レイアウトを使用
+title: ホーム
+---
+
+# ようこそ！
+
+これはNetlify上でJekyllを使って構築されたサイトのホームページです。
+
 ## 最近の投稿
 <ul>
   {% for post in site.posts limit:5 %}  {# 最近の投稿を5件まで表示 #}
