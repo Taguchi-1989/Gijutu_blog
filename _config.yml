@@ -1,0 +1,5 @@
+# _config.yml
+title: 私のNetlifyサイト
+description: NetlifyとJekyllで構築したサイトです。
+markdown: kramdown # Markdownの処理エンジン (一般的)
+# theme: minima  # もし特定のテーマGemを使いたい場合はコメント解除し、Gemfileにも追記
