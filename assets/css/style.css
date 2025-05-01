@@ -1,0 +1,56 @@
+/* assets/css/style.css */
+
+body {
+    /* 基本的なフォント設定 (OS標準の読みやすいフォント) */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.7; /* 行間を少し広げて読みやすく */
+    color: #333; /* 文字色を濃い灰色に */
+    background-color: #fdfdfd; /* 背景をわずかにオフホワイトに (任意) */
+
+    /* コンテンツの幅を制限して中央に配置 (読みやすさ向上) */
+    max-width: 800px; /* 最大幅を800pxに */
+    margin: 2em auto; /* 上下に2文字分のマージン、左右は自動で中央揃え */
+    padding: 0 1.5em; /* 左右に少しパディング */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.8em; /* 見出しの上のマージン */
+    margin-bottom: 0.8em; /* 見出しの下のマージン */
+    line-height: 1.3; /* 見出しの行間 */
+    color: #111; /* 見出しの色を少し濃く */
+}
+
+p {
+    margin-bottom: 1.2em; /* 段落の下のマージン */
+}
+
+a {
+    color: #0056b3; /* リンクの色を青系に */
+    text-decoration: none; /* 下線をデフォルトで消す */
+}
+
+a:hover {
+    text-decoration: underline; /* マウスオーバーで下線を表示 */
+    color: #003d80; /* マウスオーバーで色を少し濃く */
+}
+
+img {
+    max-width: 100%; /* 画像がコンテナ幅を超えないように */
+    height: auto;   /* 画像の縦横比を維持 */
+    display: block; /* 画像の下に変な隙間ができないように */
+    margin: 1.5em auto; /* 画像の上下にマージン、左右中央揃え */
+    border-radius: 4px; /* 画像の角を少し丸める (任意) */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 薄い影をつける (任意) */
+}
+
+/* リストのスタイル (任意) */
+ul, ol {
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+}
+li {
+    margin-bottom: 0.5em;
+}
+
+/* コードブロックなどの装飾もここに追加していく */
+/* pre, code { ... } */
